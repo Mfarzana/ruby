@@ -1,8 +1,20 @@
 secret_word="hi"
 guess=""
-while guess!=secret_word
-    puts "Enter Guess"
-    guess=gets.chomp();
-end
+guess_count=0;
+guess_limit=3;
+out_of_guesses=false;
 
-puts "You are won"
+while guess!=secret_word and !out_of_guesses
+    if guess_count < guess_limit
+        puts "Enter Guess"
+        guess=gets.chomp();
+        guess_count+=1
+    else
+        out_of_guesses=true    
+    end    
+end
+if out_of_guesses
+    puts " You loss"
+else 
+    puts "You won"
+end    
