@@ -1,0 +1,5 @@
+software, 5 people
+network, 10 people
+sre, 2 people
+databse, 4 people
+security, 4 people
