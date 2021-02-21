@@ -10,7 +10,7 @@ user>gem install middleman
 user>middleman version
 Middleman 4.3.11
 ```
-### Builds a Middleman skeleton project in your current folder with Git SCM (git bash)
+#### Builds a Middleman skeleton project in your current folder with Git SCM (git bash)
 ```
 ## middleman init project name
 $ middleman init demo_site
