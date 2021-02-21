@@ -25,6 +25,10 @@ middleman server
 localhost:4567
 
 ```
+#### Rebulid the etire middleman
+```
+bundle install 
+```
 # Reference
 * https://middlemanapp.com/
 * https://middlemanapp.com/basics/development-cycle/
